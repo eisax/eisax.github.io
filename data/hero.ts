@@ -8,7 +8,7 @@ export const hero = {
   stats: [
     { value: 25, suffix: "+", label: "Custom Modules & Systems" },
     { value: 98, suffix: "%", label: "System Reliability" },
-    { value: 5, suffix: "+", label: "Years Experience" },
+    { value: 3, suffix: "+", label: "Years Experience" },
   ],
 };
 
