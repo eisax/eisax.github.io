@@ -42,7 +42,7 @@ const seoData = {
     "Portfolio",
   ],
   url: "https://ozzene.com/developers/josphatkndhlovu",
-  image: "/img/profile.jpeg",
+  image: "/img/profile.png",
 };
 
 export const metadata: Metadata = {

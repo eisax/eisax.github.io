@@ -65,7 +65,7 @@ export function ContactSection({ github }: ContactSectionProps) {
 				</div>
 				<div className="relative mx-auto aspect-square w-40 shrink-0 overflow-hidden border border-terminal-border bg-terminal-surface sm:w-48 md:ml-auto md:mr-0 md:w-56 lg:w-64">
 					<Image
-						src="/img/profile.jpeg"
+						src="/img/profile.png"
 						alt="Josphat K Ndhlovu profile"
 						fill
 						className="object-cover object-top"
