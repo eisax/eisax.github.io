@@ -11,7 +11,7 @@ import { SkillsSection } from "@/components/sections/SkillsSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 const fallbackGithub: GithubProfile = {
-  avatar_url: "/img/josphat_avatar.svg",
+  avatar_url: "/img/profile.jpeg",
   bio: "Senior Odoo ERP Developer | AI & Machine Learning Systems",
   location: "Harare, Zimbabwe",
   html_url: "https://ozzene.com/developers/josphatkndhlovu",

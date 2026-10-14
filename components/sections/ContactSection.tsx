@@ -65,11 +65,12 @@ export function ContactSection({ github }: ContactSectionProps) {
 				</div>
 				<div className="relative mx-auto aspect-square w-40 shrink-0 overflow-hidden border border-terminal-border bg-terminal-surface sm:w-48 md:ml-auto md:mr-0 md:w-56 lg:w-64">
 					<Image
-						src={github.avatar_url}
-						alt={`${github.login} avatar`}
+						src="/img/profile.jpeg"
+						alt="Josphat K Ndhlovu profile"
 						fill
-						className="object-cover"
+						className="object-cover object-top"
 						sizes="(min-width: 1024px) 256px, (min-width: 768px) 224px, (min-width: 640px) 192px, 160px"
+						priority
 					/>
 				</div>
 			</div>
