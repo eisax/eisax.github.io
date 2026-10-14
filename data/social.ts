@@ -1,6 +1,7 @@
 export const socialLinks = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/hanzla_tauqeer",
+  email: "mailto:josphatkndhlovu@gmail.com",
+  phone: "tel:+263774259097",
+  linkedin: "https://ozzene.com/developers/josphatkndhlovu",
+  github: "https://ozzene.com/developers/josphatkndhlovu",
+  instagram: "https://ozzene.com/developers/josphatkndhlovu",
 };

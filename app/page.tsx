@@ -11,11 +11,11 @@ import { SkillsSection } from "@/components/sections/SkillsSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 const fallbackGithub: GithubProfile = {
-  avatar_url: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  bio: "Full Stack Web Developer | Python / Django / React / Next.js",
-  location: "Karachi, PK",
-  html_url: "https://github.com/1hanzla100",
-  login: "1hanzla100",
+  avatar_url: "/img/josphat_avatar.svg",
+  bio: "Senior Odoo ERP Developer | AI & Machine Learning Systems",
+  location: "Harare, Zimbabwe",
+  html_url: "https://ozzene.com/developers/josphatkndhlovu",
+  login: "josphatkndhlovu",
 };
 
 async function getGithubProfile(): Promise<GithubProfile> {

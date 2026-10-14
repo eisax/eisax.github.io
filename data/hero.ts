@@ -1,13 +1,14 @@
 export const hero = {
   greeting: "HI ALL,",
-  name: "HANZLA",
-  title: "Senior Software Engineer",
+  name: "JOSPHAT K NDHLOVU",
+  title: "Senior Odoo ERP Developer & AI Systems Engineer",
   description:
-    "I turn complex product and data challenges into clean, dependable systems that scale from first release to high-volume production.",
-  resumeLink: "https://docs.google.com/document/d/1k36gG-YZbCqZYvyUYtU2IoB0tXavn4Bw2Kqw4upjUHE/view",
+    "AI and software systems developer specializing in custom Odoo ERP architectures, autonomous agent systems, and robust enterprise integrations. From high-throughput financial pipelines to multi-tenant ERP suites, I build scalable solutions that power real-world operations.",
+  resumeLink: "https://ozzene.com/developers/josphatkndhlovu",
   stats: [
-    { value: 18, suffix: "+", label: "Happy Clients" },
-    { value: 9, suffix: "+", label: "Projects Done" },
-    { value: 100, suffix: "%", label: "Satisfaction" },
+    { value: 25, suffix: "+", label: "Custom Modules & Systems" },
+    { value: 98, suffix: "%", label: "System Reliability" },
+    { value: 5, suffix: "+", label: "Years Experience" },
   ],
 };
+

@@ -41,7 +41,7 @@ export function NavBar() {
           href="#hero"
           className="font-mono text-lg font-bold tracking-wider text-terminal-text"
         >
-          <span className="text-terminal-signal">&gt;</span> HANZLA_TAUQEER
+          <span className="text-terminal-signal">&gt;</span> JOSPHAT_K_NDHLOVU
         </a>
         <div className="hidden items-center gap-3 md:flex">
           {navLinks.map(({ href, label, icon }) => (

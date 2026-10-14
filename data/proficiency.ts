@@ -1,7 +1,7 @@
 export const proficiency = [
-  { label: "Backend Engineering", percentage: 95 },
-  { label: "Data Engineering / ETL", percentage: 90 },
-  { label: "Cloud & DevOps", percentage: 88 },
-  { label: "Frontend Development", percentage: 82 },
-  { label: "Testing & Reliability", percentage: 90 },
+  { label: "Odoo ERP Modules & Architecture", percentage: 98 },
+  { label: "Python, TypeScript & Backend APIs", percentage: 95 },
+  { label: "AI Agents & Autonomous Systems", percentage: 92 },
+  { label: "ERP Integrations & Sync Bridges", percentage: 94 },
+  { label: "Accounting & Financial Workflows", percentage: 90 },
 ];

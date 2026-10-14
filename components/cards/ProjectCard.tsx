@@ -7,6 +7,7 @@ import { GlitchText } from "@/components/primitives/GlitchText";
 interface ProjectCardProps {
   name: string;
   desc: string;
+  tags?: string[];
   github?: string;
   link?: string;
   index: number;
@@ -15,6 +16,7 @@ interface ProjectCardProps {
 export function ProjectCard({
   name,
   desc,
+  tags,
   github,
   link,
   index,
@@ -29,6 +31,18 @@ export function ProjectCard({
       <h3 className="mb-1 font-mono text-xl font-bold text-terminal-text">
         <GlitchText>{name}</GlitchText>
       </h3>
+      {tags && tags.length > 0 ? (
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {tags.map((tag) => (
+            <span
+              key={tag}
+              className="border border-terminal-border bg-terminal-bg/60 px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-terminal-dim"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      ) : null}
       <div className="my-3 border-t border-terminal-border" />
       <p className="flex-1 text-sm leading-relaxed text-terminal-soft">
         {desc}

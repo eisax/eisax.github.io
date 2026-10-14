@@ -26,15 +26,22 @@ export function ContactSection({ github }: ContactSectionProps) {
 						REACH OUT TO ME!
 					</h2>
 					<p className="mt-8 max-w-xl font-mono text-sm uppercase leading-relaxed tracking-widest text-terminal-soft">
-						Discuss a project or just want to say hi? My inbox is
-						open for all.
+						Reach out to discuss your custom ERP requirements, enterprise integrations, or autonomous AI systems.
 					</p>
-					<a
-						href={socialLinks.email}
-						className="mt-8 inline-flex border border-terminal-signal px-4 py-2 font-mono text-sm text-terminal-signal transition-colors hover:bg-terminal-signal hover:text-terminal-bg"
-					>
-						hanzla.tauqeer123@gmail.com
-					</a>
+					<div className="mt-8 flex flex-wrap items-center gap-4">
+						<a
+							href={socialLinks.email}
+							className="inline-flex border border-terminal-signal px-4 py-2 font-mono text-sm text-terminal-signal transition-colors hover:bg-terminal-signal hover:text-terminal-bg"
+						>
+							josphatkndhlovu@gmail.com
+						</a>
+						<a
+							href="tel:+263774259097"
+							className="inline-flex border border-terminal-border px-4 py-2 font-mono text-sm text-terminal-soft transition-colors hover:border-terminal-signal hover:text-terminal-signal"
+						>
+							+263 774 259 097
+						</a>
+					</div>
 					<div className="mt-6 flex flex-wrap gap-3">
 						<SocialLink
 							href={socialLinks.github}

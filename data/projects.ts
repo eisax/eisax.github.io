@@ -1,26 +1,106 @@
-export const projects = [
+export interface ProjectItem {
+  name: string;
+  desc: string;
+  tags?: string[];
+  link?: string;
+  github?: string;
+}
+
+export const projects: ProjectItem[] = [
   {
-    name: "ToughCAD",
-    desc: "Developed an e-commerce module supporting large file uploads and automated PDF post-processing workflows. Integrated shipping APIs and fulfillment automation. Contributed to generating £250k+ in annual revenue through the platform.",
-    link: "https://toughcad.co.uk/",
+    name: "Havano All-In-One",
+    desc: "The grand masterpiece suite of interconnected modules, serving as the ultimate backbone for enterprise operations and seamless API extensions.",
+    tags: ["Odoo", "Enterprise", "Architecture"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
-    name: "NAVA Ring",
-    desc: "Developed backend systems integrating wearable smart ring data. Implemented metric processing logic and AI-powered recommendations using OpenAI APIs.",
-    link: "https://navaring.com/",
+    name: "Havano Odoo API",
+    desc: "Native Odoo session-based REST API for seamless POS synchronization. Features intelligent SKU matching, idempotent sales processing, and real-time stock queries.",
+    tags: ["Odoo", "REST API", "Python"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
-    name: "Premium Property Management",
-    desc: "A comprehensive property management platform for efficient management of properties, leasing, maintenance, and contracts. To simplify property operations.",
+    name: "Finminds Financial AI Agent",
+    desc: "Autonomous financial AI agent engineered for multi-step market reasoning, tool-based execution pipelines with real-time financial data, and self-reflective evaluation loops.",
+    tags: ["AI Agents", "Python", "Finance"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
-    name: "Visual Portfolios",
-    desc: "Empowering content creators to generate stunning infographics effortlessly, while boosting their LinkedIn audience. Write, visualize, and grow with our user-friendly platform.",
+    name: "Pairedminds AI Assistant",
+    desc: "AI assistant system with persistent memory and multi-tool integration. Designed modular architecture connecting external APIs with hybrid memory concepts for long-term contextual awareness.",
+    tags: ["AI Assistant", "Memory", "TypeScript"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer. 800+ Stars & 480+ Forks",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "Sentinel AI Security Testing",
+    desc: "Autonomous AI security testing system simulating penetration testing workflows across multi-phase pipelines: reconnaissance, analysis, exploitation, and automated reporting.",
+    tags: ["Security", "Autonomous AI", "Automation"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Odoo to Frappe/ERPNext Sync",
+    desc: "Bi-directional data synchronization bridge connecting Odoo instances with Frappe/ERPNext systems for distributed operations and multi-entity environments.",
+    tags: ["Odoo", "Frappe", "ERPNext", "Sync"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Desktop POS ERP",
+    desc: "Custom desktop Point of Sale application tightly integrated with Odoo ERP for robust offline and online sales handling with local caching.",
+    tags: ["Odoo", "POS", "Desktop", "C#"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Odoo Sage API",
+    desc: "Bi-directional synchronization between Odoo and Sage Pastel Evolution SDK via C# API covering sales, users, quotes, invoices, and cashbook operations.",
+    tags: ["Odoo", "Sage API", "C#", "Integration"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Zim Localisation Payroll",
+    desc: "Comprehensive Zimbabwe payroll module with predefined ZIMRA tax rules, complex salary tier structures, and multi-currency support.",
+    tags: ["Odoo", "Payroll", "Localisation", "ZIMRA"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Windows Odoo 19 Deployment Engine",
+    desc: "Automated deployment engine for Odoo 19 on Windows. Configures PostgreSQL, handles instance management, service orchestration, and streamlines full setup.",
+    tags: ["Odoo 19", "Windows", "DevOps"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Custom Financial Statements Suite",
+    desc: "Advanced financial reporting modules delivering customizable Profit and Loss, dynamic Balance Sheets, and Statement of Financial Position insights.",
+    tags: ["Odoo", "Accounting", "Reporting", "QWeb"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "WhatsApp API Integration",
+    desc: "Seamlessly send automated notifications, invoices, payment reminders, and quotations directly to clients via WhatsApp from Odoo business records.",
+    tags: ["Odoo", "WhatsApp API", "Python"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "CRM Bulk Data Import Engine",
+    desc: "High-performance migration engine to import users, leads, lead sources, and activities directly from CSV/Excel into Odoo CRM with validation and field mapping.",
+    tags: ["CRM", "Import", "Data Migration"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Trucking & Logistics Management",
+    desc: "Comprehensive logistics management module for Odoo handling vehicle telemetry, route optimization, driver assignments, and maintenance schedules.",
+    tags: ["Odoo", "Logistics", "Python"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "Odoo Data Sentinel",
+    desc: "A comprehensive Odoo application for automated database backups, data quality monitoring, schema validation, and health analysis across ERP ecosystems.",
+    tags: ["Odoo", "Data Management", "Security"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
+    name: "White Label & Multi-Company Branding",
+    desc: "Enterprise theming module to position corporate identity on top-left navigation, provide real-time theme controls, and eliminate default vendor branding.",
+    tags: ["Odoo", "Branding", "UI/UX"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
   },
 ];

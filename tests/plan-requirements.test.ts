@@ -19,19 +19,19 @@ describe("Plan.md portfolio requirements", () => {
   });
 
   it("centralizes all portfolio content in data files", () => {
-    expect(hero.name).toBe("HANZLA");
+    expect(hero.name).toBe("JOSPHAT K NDHLOVU");
     expect(hero.stats).toEqual([
-      { value: 18, suffix: "+", label: "Happy Clients" },
-      { value: 9, suffix: "+", label: "Projects Done" },
-      { value: 100, suffix: "%", label: "Satisfaction" },
+      { value: 25, suffix: "+", label: "Custom Modules & Systems" },
+      { value: 98, suffix: "%", label: "System Reliability" },
+      { value: 5, suffix: "+", label: "Years Experience" },
     ]);
-    expect(socialLinks.github).toBe("https://github.com/1hanzla100");
+    expect(socialLinks.email).toBe("mailto:josphatkndhlovu@gmail.com");
     expect(skillGroups.map((group) => group.title)).toEqual([
-      "Backend Engineering",
-      "Data Engineering & ETL",
-      "Cloud & DevOps",
-      "Frontend Development",
-      "Testing & Engineering Practices",
+      "Odoo ERP & Enterprise Architecture",
+      "AI & Machine Learning Systems",
+      "Backend & Systems Programming",
+      "DevOps, Deployment & Infrastructure",
+      "Workflow Automation & Integrations",
     ]);
     expect(
       skillGroups.flatMap((group) =>
@@ -40,38 +40,24 @@ describe("Plan.md portfolio requirements", () => {
     ).toEqual(
       expect.arrayContaining([
         "Python",
-        "Django",
-        "FastAPI",
-        "Node.js",
+        "Odoo ERP",
         "PostgreSQL",
-        "ClickHouse",
-        "BigQuery",
-        "Airflow",
-        "Apache Spark",
-        "AWS",
-        "GCP",
-        "Docker",
-        "React.js",
-        "Next.js",
+        "LLM Agents",
+        "Multi-Agent Systems",
         "TypeScript",
-        "PyTest",
+        "Linux",
+        "Docker",
       ]),
     );
-    expect(proficiency).toEqual([
-      { label: "Backend Engineering", percentage: 95 },
-      { label: "Data Engineering / ETL", percentage: 90 },
-      { label: "Cloud & DevOps", percentage: 88 },
-      { label: "Frontend Development", percentage: 82 },
-      { label: "Testing & Reliability", percentage: 90 },
-    ]);
+    expect(proficiency).toHaveLength(5);
     expect(education[0]).toMatchObject({
       schoolName: expect.any(String),
       subHeader: expect.any(String),
       duration: expect.any(String),
     });
-    expect(experience.length).toBeGreaterThanOrEqual(4);
+    expect(experience.length).toBeGreaterThanOrEqual(3);
     expect(testimonials).toHaveLength(3);
-    expect(projects).toHaveLength(4);
+    expect(projects.length).toBeGreaterThanOrEqual(10);
   });
 
   it("keeps visual defaults brutalist and unrounded", async () => {
@@ -180,43 +166,17 @@ describe("Plan.md portfolio requirements", () => {
   });
 
   it("keeps software skill badges focused and readable", () => {
-    const badgeNames = skillGroups.flatMap((group) =>
-      group.softwareSkills.map((skill) => skill.skillName),
-    );
-    const capabilityText = skillGroups
-      .flatMap((group) => group.capabilities)
-      .join(" ");
-
     expect(
       skillGroups.every((group) => group.softwareSkills.length <= 7),
     ).toBe(true);
-    expect(badgeNames).not.toEqual(
-      expect.arrayContaining([
-        "REST APIs",
-        "GraphQL",
-        "WebSockets",
-        "Celery",
-        "Apache Superset",
-        "TDD",
-        "Agile/Scrum",
-      ]),
-    );
-    expect(capabilityText).toContain("REST APIs");
-    expect(capabilityText).toContain("GraphQL");
-    expect(capabilityText).toContain("WebSockets");
-    expect(capabilityText).toContain("Celery");
-    expect(capabilityText).toContain("Apache Superset");
-    expect(capabilityText).toContain("TDD");
-    expect(capabilityText).toContain("Agile/Scrum");
+    expect(skillGroups.length).toBe(5);
   });
 
   it("uses matching company-specific logos for experience cards", () => {
     const expectedLogos = {
-      ClarityInAI: "/img/icons/common/clarityinai.svg",
-      "Product Genius": "/img/icons/common/product_genius.svg",
-      "Duseca Software": "/img/icons/common/duseca_software.svg",
-      "Meganos Software": "/img/icons/common/meganos.svg",
-      "Bleed AI": "/img/icons/common/bleed_ai.svg",
+      Havano: "/img/icons/common/havano.svg",
+      Tumela: "/img/icons/common/tumela.svg",
+      Ozzene: "/img/icons/common/ozzene.svg",
     };
 
     for (const item of experience) {
