@@ -52,7 +52,7 @@ export const skillGroups = [
   {
     title: "DevOps, Deployment & Infrastructure",
     capabilities: [
-      "Developing automated deployment engines for Windows and Linux production environments",
+      "Developing automated deployment engines for Linux production environments",
       "Containerizing ERP ecosystems with Docker and streamlining CI/CD pipelines via GitHub Actions",
       "Deploying high-reliability backup, data sentinel, and telemetry monitoring solutions",
     ],
@@ -60,8 +60,8 @@ export const skillGroups = [
       { skillName: "Linux", iconifyTag: "logos:linux-tux" },
       { skillName: "Git", iconifyTag: "logos:git-icon" },
       { skillName: "Docker", iconifyTag: "logos:docker-icon" },
+      { skillName: "Nginx", iconifyTag: "logos:nginx" },
       { skillName: "CI/CD", iconifyTag: "mdi:source-branch-sync" },
-      { skillName: "Windows Engines", iconifyTag: "logos:microsoft-windows" },
       { skillName: "GitHub Actions", iconifyTag: "logos:github-actions" },
     ],
   },

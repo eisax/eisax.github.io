@@ -20,6 +20,12 @@ export const projects: ProjectItem[] = [
     link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
+    name: "Havano Payments",
+    desc: "Odoo payment provider integrating Paynow and EcoCash gateway solutions with automated transaction processing, custom form templates, and web frontend interactions.",
+    tags: ["Odoo", "Payment Gateway", "Paynow", "EcoCash"],
+    link: "https://ozzene.com/developers/josphatkndhlovu",
+  },
+  {
     name: "Finminds Financial AI Agent",
     desc: "Autonomous financial AI agent engineered for multi-step market reasoning, tool-based execution pipelines with real-time financial data, and self-reflective evaluation loops.",
     tags: ["AI Agents", "Python", "Finance"],
@@ -56,15 +62,15 @@ export const projects: ProjectItem[] = [
     link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
-    name: "Zim Localisation Payroll",
-    desc: "Comprehensive Zimbabwe payroll module with predefined ZIMRA tax rules, complex salary tier structures, and multi-currency support.",
-    tags: ["Odoo", "Payroll", "Localisation", "ZIMRA"],
+    name: "Linux Odoo 19 Deployment Engine",
+    desc: "Automated deployment engine for Odoo 19 on Linux. Configures PostgreSQL, handles instance management, service orchestration, and streamlines full setup.",
+    tags: ["Odoo 19", "Linux", "DevOps"],
     link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
-    name: "Windows Odoo 19 Deployment Engine",
-    desc: "Automated deployment engine for Odoo 19 on Windows. Configures PostgreSQL, handles instance management, service orchestration, and streamlines full setup.",
-    tags: ["Odoo 19", "Windows", "DevOps"],
+    name: "Odoo SaaS Master",
+    desc: "Docker-based multi-tenant Odoo SaaS orchestration engine supporting automated instance provisioning (v15-v19), custom domain routing, SSH keypair management, remote PostgreSQL orchestration, automated backups, and eCommerce subscription checkout.",
+    tags: ["Odoo 19", "Docker", "SaaS", "DevOps"],
     link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
@@ -83,12 +89,6 @@ export const projects: ProjectItem[] = [
     name: "CRM Bulk Data Import Engine",
     desc: "High-performance migration engine to import users, leads, lead sources, and activities directly from CSV/Excel into Odoo CRM with validation and field mapping.",
     tags: ["CRM", "Import", "Data Migration"],
-    link: "https://ozzene.com/developers/josphatkndhlovu",
-  },
-  {
-    name: "Trucking & Logistics Management",
-    desc: "Comprehensive logistics management module for Odoo handling vehicle telemetry, route optimization, driver assignments, and maintenance schedules.",
-    tags: ["Odoo", "Logistics", "Python"],
     link: "https://ozzene.com/developers/josphatkndhlovu",
   },
   {
