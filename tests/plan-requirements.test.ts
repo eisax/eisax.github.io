@@ -23,7 +23,7 @@ describe("Plan.md portfolio requirements", () => {
     expect(hero.stats).toEqual([
       { value: 25, suffix: "+", label: "Custom Modules & Systems" },
       { value: 98, suffix: "%", label: "System Reliability" },
-      { value: 5, suffix: "+", label: "Years Experience" },
+      { value: 3, suffix: "+", label: "Years Experience" },
     ]);
     expect(socialLinks.email).toBe("mailto:josphatkndhlovu@gmail.com");
     expect(skillGroups.map((group) => group.title)).toEqual([
