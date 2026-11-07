@@ -21,17 +21,17 @@ describe("Plan.md portfolio requirements", () => {
   it("centralizes all portfolio content in data files", () => {
     expect(hero.name).toBe("JOSPHAT K NDHLOVU");
     expect(hero.stats).toEqual([
-      { value: 25, suffix: "+", label: "Custom Modules & Systems" },
-      { value: 98, suffix: "%", label: "System Reliability" },
       { value: 3, suffix: "+", label: "Years Experience" },
+      { value: 250, suffix: "+", label: "SDK Integrations" },
+      { value: 100, suffix: "%", label: "Offline-First Reliability" },
     ]);
     expect(socialLinks.email).toBe("mailto:josphatkndhlovu@gmail.com");
     expect(skillGroups.map((group) => group.title)).toEqual([
-      "Odoo ERP & Enterprise Architecture",
-      "AI & Machine Learning Systems",
-      "Backend & Systems Programming",
-      "DevOps, Deployment & Infrastructure",
-      "Workflow Automation & Integrations",
+      "Mobile App Development",
+      "Fintech & Payment Systems",
+      "Integration & REST APIs",
+      "Data, Storage & Backend",
+      "Engineering & Infrastructure",
     ]);
     expect(
       skillGroups.flatMap((group) =>
@@ -39,14 +39,13 @@ describe("Plan.md portfolio requirements", () => {
       ),
     ).toEqual(
       expect.arrayContaining([
-        "Python",
-        "Odoo ERP",
-        "PostgreSQL",
-        "LLM Agents",
-        "Multi-Agent Systems",
-        "TypeScript",
-        "Linux",
-        "Docker",
+        "Flutter",
+        "Dart",
+        "Android",
+        "EcoCash",
+        "REST APIs",
+        "SQLite",
+        "Git",
       ]),
     );
     expect(proficiency).toHaveLength(5);
@@ -174,9 +173,10 @@ describe("Plan.md portfolio requirements", () => {
 
   it("uses matching company-specific logos for experience cards", () => {
     const expectedLogos = {
-      Havano: "/img/icons/common/havano.svg",
-      Tumela: "/img/icons/common/tumela.svg",
-      Ozzene: "/img/icons/common/ozzene.svg",
+      HavanoERP: "/img/icons/common/havano.svg",
+      "Tumela Systems": "/img/icons/common/tumela.svg",
+      Abstrack: "/img/icons/common/duseca_software.svg",
+      "Zimbabwe Women's Microfinance Bank": "/img/icons/common/clarityinai.svg",
     };
 
     for (const item of experience) {

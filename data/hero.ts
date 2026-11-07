@@ -1,14 +1,13 @@
 export const hero = {
   greeting: "HI ALL,",
   name: "JOSPHAT K NDHLOVU",
-  title: "Senior Odoo ERP Developer & AI Systems Engineer",
+  title: "Mobile Software Engineer | Flutter & Dart | Fintech & Payments",
   description:
-    "AI and software systems developer specializing in custom Odoo ERP architectures, autonomous agent systems, and robust enterprise integrations. From high-throughput financial pipelines to multi-tenant ERP suites, I build scalable solutions that power real-world operations.",
-  resumeLink: "https://ozzene.com/developers/josphatkndhlovu",
+    "Mobile Software Engineer with 3+ years of software development experience, specialising in Flutter and Dart application development. Experienced in building and maintaining production mobile applications across POS, payments, e-commerce and enterprise systems.",
+  resumeLink: "https://www.linkedin.com/in/josphatndhlovu",
   stats: [
-    { value: 25, suffix: "+", label: "Custom Modules & Systems" },
-    { value: 98, suffix: "%", label: "System Reliability" },
     { value: 3, suffix: "+", label: "Years Experience" },
+    { value: 250, suffix: "+", label: "SDK Integrations" },
+    { value: 100, suffix: "%", label: "Offline-First Reliability" },
   ],
 };
-

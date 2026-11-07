@@ -1,7 +1,7 @@
 export const proficiency = [
-  { label: "Odoo ERP Modules & Architecture", percentage: 98 },
-  { label: "Python, TypeScript & Backend APIs", percentage: 95 },
-  { label: "AI Agents & Autonomous Systems", percentage: 92 },
-  { label: "ERP Integrations & Sync Bridges", percentage: 94 },
-  { label: "Accounting & Financial Workflows", percentage: 90 },
+  { label: "Flutter & Dart Mobile Architecture", percentage: 98 },
+  { label: "Fintech, EcoCash & Payment Integrations", percentage: 95 },
+  { label: "Offline-First Sync & SQLite/Drift Storage", percentage: 94 },
+  { label: "REST APIs, OAuth & Enterprise Backend Sync", percentage: 92 },
+  { label: "Mobile POS & Transaction Processing", percentage: 90 },
 ];

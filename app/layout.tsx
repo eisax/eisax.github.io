@@ -19,29 +19,27 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 const seoData = {
-  title: "Josphat K Ndhlovu | Senior Odoo ERP Developer & AI Systems Engineer",
+  title: "Josphat K Ndhlovu | Mobile Software Engineer | Flutter & Dart",
   siteName: "Josphat K Ndhlovu Portfolio",
   author: "Josphat K Ndhlovu",
   description:
-    "Senior Odoo ERP Developer and Software Systems Engineer specializing in custom Odoo modules, autonomous AI agent architectures, financial reasoning pipelines, and enterprise integrations.",
+    "Mobile Software Engineer with 3+ years of experience specializing in Flutter and Dart application development, POS systems, payment workflows, and offline-capable mobile architectures.",
   keywords: [
     "Josphat K Ndhlovu",
     "Josphat Ndhlovu",
-    "Senior Odoo ERP Developer",
-    "Odoo Specialist",
-    "Enterprise ERP Architect",
-    "Autonomous AI Agents",
-    "LLM Systems",
-    "Python Developer",
-    "TypeScript Developer",
-    "Frappe ERPNext Sync",
-    "Sage API",
-    "Zim Localisation Payroll",
-    "Havano ERP",
-    "AI Systems Engineer",
+    "Mobile Software Engineer",
+    "Flutter Developer",
+    "Dart Developer",
+    "Fintech & Payments",
+    "EcoCash Integrations",
+    "Mobile POS Systems",
+    "Android Developer",
+    "Riverpod",
+    "Offline-Capable Mobile",
+    "Harare Zimbabwe",
     "Portfolio",
   ],
-  url: "https://ozzene.com/developers/josphatkndhlovu",
+  url: "https://github.com/eisax",
   image: "/img/profile.png",
 };
 

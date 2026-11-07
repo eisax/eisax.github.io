@@ -12,15 +12,15 @@ import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 const fallbackGithub: GithubProfile = {
   avatar_url: "/img/profile.png",
-  bio: "Senior Odoo ERP Developer | AI & Machine Learning Systems",
+  bio: "Mobile Software Engineer | Flutter & Dart | Fintech & Payments",
   location: "Harare, Zimbabwe",
-  html_url: "https://ozzene.com/developers/josphatkndhlovu",
-  login: "josphatkndhlovu",
+  html_url: "https://github.com/eisax",
+  login: "eisax",
 };
 
 async function getGithubProfile(): Promise<GithubProfile> {
   try {
-    const res = await fetch("https://api.github.com/users/1hanzla100", {
+    const res = await fetch("https://api.github.com/users/eisax", {
       headers: { Accept: "application/vnd.github.v3+json" },
       cache: "force-cache",
     });
