@@ -42,6 +42,7 @@ describe("Plan.md portfolio requirements", () => {
         "Flutter",
         "Dart",
         "Android",
+        "Kotlin",
         "Laravel",
         "Angular",
         "REST APIs",

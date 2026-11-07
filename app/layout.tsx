@@ -30,6 +30,7 @@ const seoData = {
     "Fullstack Mobile Software Engineer",
     "Flutter Developer",
     "Dart Developer",
+    "Kotlin Developer",
     "Android Developer",
     "Riverpod",
     "Laravel",

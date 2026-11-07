@@ -2,7 +2,7 @@ export const skillGroups = [
   {
     title: "Mobile Development",
     capabilities: [
-      "Building and maintaining production mobile applications using Flutter, Dart, and Android",
+      "Building and maintaining production mobile applications using Flutter, Dart, Kotlin, and Android",
       "Robust state management with Riverpod, clean application architecture, and responsive mobile UI",
       "Developing offline-capable mobile workflows with local data persistence and hardware integrations",
     ],
@@ -10,6 +10,7 @@ export const skillGroups = [
       { skillName: "Flutter", iconifyTag: "logos:flutter" },
       { skillName: "Dart", iconifyTag: "logos:dart" },
       { skillName: "Android", iconifyTag: "logos:android-icon" },
+      { skillName: "Kotlin", iconifyTag: "logos:kotlin-icon" },
       { skillName: "Riverpod", iconifyTag: "simple-icons:flutter" },
       { skillName: "Mobile Architecture", iconifyTag: "mdi:layers-triple-outline" },
       { skillName: "Mobile POS", iconifyTag: "mdi:point-of-sale" },
