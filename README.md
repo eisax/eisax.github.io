@@ -1,6 +1,6 @@
 <h1 align="center">Josphat K Ndhlovu Portfolio</h1>
 
-## Mobile Software Engineer Portfolio built with Next.js, TypeScript, Tailwind CSS, and a brutalist dark design system.
+## Fullstack Mobile Software Engineer Portfolio built with Next.js, TypeScript, Tailwind CSS, and a brutalist dark design system.
 
 This project is a single-page portfolio for **Josphat K Ndhlovu**. It showcases mobile applications across Flutter, Dart, and Android, web development with Laravel and Angular, enterprise backend services, POS systems, payment integrations, education, and open-source contributions through a terminal-inspired interface.
 

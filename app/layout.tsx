@@ -19,15 +19,15 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 const seoData = {
-  title: "Josphat K Ndhlovu | Mobile Software Engineer",
+  title: "Josphat K Ndhlovu | Fullstack Mobile Software Engineer",
   siteName: "Josphat K Ndhlovu Portfolio",
   author: "Josphat K Ndhlovu",
   description:
-    "Mobile Software Engineer with 3+ years of experience in Flutter, Dart, and Android application development, web development with Laravel and Angular, backend services, POS, and payment integrations.",
+    "Fullstack Mobile Software Engineer with 3+ years of experience in Flutter, Dart, and Android application development, web development with Laravel and Angular, backend services, POS, and payment integrations.",
   keywords: [
     "Josphat K Ndhlovu",
     "Josphat Ndhlovu",
-    "Mobile Software Engineer",
+    "Fullstack Mobile Software Engineer",
     "Flutter Developer",
     "Dart Developer",
     "Android Developer",
