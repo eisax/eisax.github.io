@@ -1,13 +1,13 @@
 export const hero = {
   greeting: "HI ALL,",
   name: "JOSPHAT K NDHLOVU",
-  title: "Fullstack Mobile Software Engineer",
+  title: "Mobile Developer (Flutter & Android)",
   description:
-    "Fullstack Mobile Software Engineer with 3+ years of software development experience across mobile, web, and enterprise systems. Specializing in Flutter, Dart, Kotlin, Jetpack Compose, and Android application development, with broad engineering experience spanning backend services, databases, POS, and payment integrations.",
+    "Mobile Software Engineer with 3+ years of experience specializing in Flutter, Dart, Kotlin, and Android. Proven track record building and shipping production apps on Google Play, integrating mobile wallets, payments, KYC onboarding, and offline-first architectures with a strong focus on mobile security, biometrics, and certificate pinning.",
   resumeLink: "https://www.linkedin.com/in/josphatndhlovu",
   stats: [
-    { value: 3, suffix: "+", label: "Years Experience" },
-    { value: 250, suffix: "+", label: "SDK Integrations" },
-    { value: 100, suffix: "%", label: "Production Reliability" },
+    { value: 4, suffix: "+", label: "Published Play Store Apps" },
+    { value: 250, suffix: "+", label: "Package Integrations" },
+    { value: 3, suffix: "+", label: "Years Mobile Experience" },
   ],
 };

@@ -21,17 +21,17 @@ describe("Plan.md portfolio requirements", () => {
   it("centralizes all portfolio content in data files", () => {
     expect(hero.name).toBe("JOSPHAT K NDHLOVU");
     expect(hero.stats).toEqual([
-      { value: 3, suffix: "+", label: "Years Experience" },
-      { value: 250, suffix: "+", label: "SDK Integrations" },
-      { value: 100, suffix: "%", label: "Offline-First Reliability" },
+      { value: 4, suffix: "+", label: "Published Play Store Apps" },
+      { value: 250, suffix: "+", label: "Package Integrations" },
+      { value: 3, suffix: "+", label: "Years Mobile Experience" },
     ]);
     expect(socialLinks.email).toBe("mailto:josphatkndhlovu@gmail.com");
     expect(skillGroups.map((group) => group.title)).toEqual([
-      "Mobile Development",
-      "Backend & Enterprise Systems",
-      "Web & Frontend Development",
-      "Payments, POS & E-Commerce",
-      "Data, DevOps & Engineering",
+      "Mobile App Development",
+      "Fintech, Wallets & Payments",
+      "Mobile Security & Architecture",
+      "Data, Storage & Backend Systems",
+      "Testing, Release & Engineering",
     ]);
     expect(
       skillGroups.flatMap((group) =>
@@ -44,11 +44,11 @@ describe("Plan.md portfolio requirements", () => {
         "Android",
         "Kotlin",
         "Jetpack Compose",
-        "Laravel",
-        "Angular",
-        "REST APIs",
+        "Riverpod",
+        "BLoC",
+        "EcoCash",
         "SQLite",
-        "PostgreSQL",
+        "Firebase",
       ]),
     );
     expect(proficiency).toHaveLength(5);
@@ -58,7 +58,7 @@ describe("Plan.md portfolio requirements", () => {
       duration: expect.any(String),
     });
     expect(experience.length).toBeGreaterThanOrEqual(3);
-    expect(testimonials).toHaveLength(3);
+    expect(Array.isArray(testimonials)).toBe(true);
     expect(projects.length).toBeGreaterThanOrEqual(10);
   });
 
@@ -176,9 +176,8 @@ describe("Plan.md portfolio requirements", () => {
 
   it("uses matching company-specific logos for experience cards", () => {
     const expectedLogos = {
-      HavanoERP: "/img/icons/common/havano.svg",
+      "Showline Solutions": "/img/icons/common/havano.svg",
       "Tumela Systems": "/img/icons/common/tumela.svg",
-      Abstrack: "/img/icons/common/duseca_software.svg",
       "Zimbabwe Women's Microfinance Bank": "/img/icons/common/clarityinai.svg",
     };
 

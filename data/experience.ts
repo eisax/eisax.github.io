@@ -1,6 +1,6 @@
 export const experience = [
   {
-    company: "HavanoERP",
+    company: "Showline Solutions",
     role: "Software Engineer",
     date: "February 2026 – Present",
     companyLogo: "/img/icons/common/havano.svg",
@@ -25,18 +25,6 @@ export const experience = [
       "Worked on payment workflows and business transaction processing.",
       "Developed and maintained applications supporting sales, inventory and commercial operations.",
       "Worked across mobile and web development projects, contributing to the wider application ecosystem.",
-    ],
-  },
-  {
-    company: "Abstrack",
-    role: "Remote Software Developer",
-    date: "January 2025 – May 2025",
-    companyLogo: "/img/icons/common/duseca_software.svg",
-    desc: "Developed web application features using Laravel and modern web frameworks.",
-    descBullets: [
-      "Developed web application features using Laravel and Angular.",
-      "Integrated frontend applications with backend APIs.",
-      "Contributed to application development, debugging and maintenance.",
     ],
   },
   {

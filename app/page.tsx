@@ -12,7 +12,7 @@ import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 const fallbackGithub: GithubProfile = {
   avatar_url: "/img/profile.png",
-  bio: "Fullstack Mobile Software Engineer | Flutter, Android, Web & Enterprise Systems",
+  bio: "Mobile Developer (Flutter & Android) | Fintech, Wallets & Payments",
   location: "Harare, Zimbabwe",
   html_url: "https://github.com/eisax",
   login: "eisax",
