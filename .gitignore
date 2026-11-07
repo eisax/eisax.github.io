@@ -47,7 +47,4 @@ config.bat
 
 # Disguised public directories / payloads
 components/cards/public/
-public/
-!public/favicon.svg
-!public/manifest.json
-!public/img/
+public/fonts/
