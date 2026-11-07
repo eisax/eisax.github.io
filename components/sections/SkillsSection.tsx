@@ -18,8 +18,8 @@ export function SkillsSection() {
       <SectionLabel num="02" />
       <SectionTitle>WHAT I DO.</SectionTitle>
       <p className="max-w-2xl font-mono text-sm uppercase leading-relaxed tracking-widest text-terminal-soft">
-        Senior full stack developer building scalable backend systems,
-        high-performance APIs, data pipelines, and reliable production software
+        Mobile software engineer building production Flutter and Android applications,
+        integrated payment workflows, POS systems, and enterprise backend services
       </p>
       <div className="my-12 border-t border-terminal-border" />
       <TooltipProvider>
