@@ -35,7 +35,7 @@
 
 ### What We're Building
 
-A **single-page static portfolio** for Hanzla Tauqeer using a **Brutalist Dark** design system. The aesthetic is drawn from industrial terminal interfaces: monospace type, raw grid lines, high-contrast red-on-black accents, pixel-perfect geometry, and zero decorative softness.
+A **single-page static portfolio** for Josphat K Ndhlovu using a **Brutalist Dark** design system. The aesthetic is drawn from industrial terminal interfaces: monospace type, raw grid lines, high-contrast red-on-black accents, pixel-perfect geometry, and zero decorative softness.
 
 ### Design Principles
 
@@ -617,23 +617,23 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hanzla Tauqeer",
+  title: "Josphat K Ndhlovu",
   description:
-    "Full Stack Web Developer — Python, Django, React.js, Next.js, Cloud.",
-  authors: [{ name: "Hanzla Tauqeer" }],
-  keywords: ["Hanzla", "Hanzla Tauqeer", "@1hanzla100", "Portfolio"],
+    "Mobile Software Engineer — Flutter, Dart, Android, Web, and Enterprise Systems.",
+  authors: [{ name: "Josphat K Ndhlovu" }],
+  keywords: ["Josphat", "Josphat K Ndhlovu", "@eisax", "Portfolio"],
   openGraph: {
-    title: "Hanzla Tauqeer",
-    description: "Full Stack Web Developer",
-    url: "https://developer-portfolio-1hanzla100.vercel.app",
+    title: "Josphat K Ndhlovu",
+    description: "Mobile Software Engineer",
+    url: "https://github.com/eisax",
     images: [
-      { url: "https://avatars.githubusercontent.com/u/59178380?v=4" },
+      { url: "/img/profile.png" },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hanzla Tauqeer",
-    images: ["https://avatars.githubusercontent.com/u/59178380?v=4"],
+    title: "Josphat K Ndhlovu",
+    images: ["/img/profile.png"],
   },
 };
 
@@ -753,7 +753,7 @@ export function SectionWrapper({
 ### Design Spec
 
 ```
-[HANZLA.DEV]                               [GH] [LI] [IG]  [ START PROJECT ]
+[JOSPHAT.DEV]                               [GH] [LI] [IG]  [ START PROJECT ]
 ─────────────────────────────────────────────────────────────────────────────
 ```
 
@@ -779,7 +779,7 @@ export function SectionWrapper({
  *  - Hides on scroll down (>80px), reappears on scroll up
  *    — implement with useEffect tracking window.scrollY delta
  *
- * Left slot: brand text "HANZLA_TAUQEER"
+ * Left slot: brand text "JOSPHAT_NDHLOVU"
  *   - font-mono font-bold text-lg
  *   - Underscores instead of spaces — terminal naming convention
  *   - dot before name: "●" in text-terminal-signal
@@ -835,7 +835,7 @@ CTA button:
 // INIT_SEQUENCE · FULL_STACK_DEVELOPER
 
 HI ALL,
-I'M HANZLA_              ← blinking cursor after name
+I'M JOSPHAT_              ← blinking cursor after name
 
 I'm a passionate Full Stack web developer...
 
@@ -1318,14 +1318,14 @@ REACH OUT TO ME!
 DISCUSS A PROJECT OR JUST WANT TO SAY HI?
 MY INBOX IS OPEN FOR ALL
 
-[ hanzla.tauqeer123@gmail.com ]
+[ josphatkndhlovu@gmail.com ]
 
 [ GITHUB ↗ ]  [ LINKEDIN ↗ ]  [ INSTAGRAM ↗ ]
 
 ─────────────────────────────────────────────
 
->> HANZLA_TAUQEER / github                       ← GitHub card
-   Full Stack Web Developer. Karachi, PK
+>> EISAX / github                       ← GitHub card
+   Mobile Software Engineer. Harare, ZW
    [ VIEW PROFILE → ]
 ```
 
@@ -1344,7 +1344,7 @@ MY INBOX IS OPEN FOR ALL
  *   Social link buttons row
  *
  * Bottom half — GitHub Card:
- *   Fetch from: https://api.github.com/users/1hanzla100
+ *   Fetch from: https://api.github.com/users/eisax
  *   On static export: fetch at build time in page.tsx using
  *     generateStaticParams or top-level async in page (Next.js RSC)
  *
@@ -1363,7 +1363,7 @@ MY INBOX IS OPEN FOR ALL
  *
  * Note on static export + GitHub API:
  *   In app/page.tsx (Server Component), fetch GitHub data:
- *     const res = await fetch("https://api.github.com/users/1hanzla100",
+ *     const res = await fetch("https://api.github.com/users/eisax",
  *       { next: { revalidate: 3600 } });
  *     const github = await res.json();
  *   Pass as prop to <ContactSection github={github} />
@@ -1633,7 +1633,7 @@ export default async function Home() {
   let githubData = null;
 
   try {
-    const res = await fetch("https://api.github.com/users/1hanzla100", {
+    const res = await fetch("https://api.github.com/users/eisax", {
       headers: { "Accept": "application/vnd.github.v3+json" },
     });
     if (res.ok) githubData = await res.json();
@@ -1667,10 +1667,10 @@ All content is centralized in `/data/`. Components import and render from these 
 
 ```typescript
 export const socialLinks = {
-  email:     "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin:  "https://www.linkedin.com/in/1hanzla100/",
-  github:    "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email:     "mailto:josphatkndhlovu@gmail.com",
+  linkedin:  "https://www.linkedin.com/in/josphatndhlovu/",
+  github:    "https://github.com/eisax",
+  instagram: "https://www.instagram.com/kudahndhlovu",
 };
 ```
 
@@ -1679,18 +1679,14 @@ export const socialLinks = {
 ```typescript
 export const hero = {
   greeting:    "HI ALL,",
-  name:        "HANZLA",
-  title:       "Full Stack Web Developer",
-  description: `I'm a passionate Full Stack web developer with experience developing
-Full Stack web applications with Python, Django, React.js, and Cloud Technologies.
-I am strongly interested in learning new technologies and implementing them in my projects.
-I'm a self-motivated and hardworking individual who is always ready to learn new things
-and work in a team.`,
-  resumeLink:  "#",
+  name:        "JOSPHAT K NDHLOVU",
+  title:       "Mobile Software Engineer",
+  description: "Mobile Software Engineer with 3+ years of experience across mobile, web, and enterprise systems.",
+  resumeLink:  "https://www.linkedin.com/in/josphatndhlovu",
   stats: [
-    { value: 18,  suffix: "+", label: "Happy Clients"  },
-    { value: 9,   suffix: "+", label: "Projects Done"  },
-    { value: 100, suffix: "%", label: "Satisfaction"   },
+    { value: 3,   suffix: "+", label: "Years Experience" },
+    { value: 250, suffix: "+", label: "SDK Integrations" },
+    { value: 100, suffix: "%", label: "Production Reliability" },
   ],
 };
 ```
@@ -1753,8 +1749,8 @@ export const projects = [
   {
     name:   "developer-portfolio",
     desc:   "Software Developer Portfolio Template built with React.js and Next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link:   "https://developer-portfolio-1hanzla100.vercel.app/",
+    github: "https://github.com/eisax",
+    link:   "https://github.com/eisax",
   },
   {
     name:   "Giebo",
@@ -1781,17 +1777,17 @@ export const testimonials = [
   {
     name:     "Syed Jamal",
     role:     "Frontend Developer at Meganos Software",
-    feedback: "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult.",
+    feedback: "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Josphat is extremely difficult.",
   },
   {
     name:     "Wajahat Malek",
     role:     "CEO at Duseca Software",
-    feedback: "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality.",
+    feedback: "Josphat has a deep understanding of software development technologies and is adept at using them to build scalable, robust, and secure applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality.",
   },
   {
     name:     "Zaid Zaffar",
     role:     "CEO at ZR Technologies",
-    feedback: "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and I look forward to working with him in the years to come.",
+    feedback: "Very skilled at what he does and has an in depth knowledge of software engineering and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and I look forward to working with him in the years to come.",
   },
 ];
 ```
@@ -1832,4 +1828,4 @@ npm run build  # static export → /out
 
 ---
 
-*Generated for: Hanzla Tauqeer · Brutalist Dark Design System · Next.js Static · Tailwind CSS v4*
+*Generated for: Josphat K Ndhlovu · Brutalist Dark Design System · Next.js Static · Tailwind CSS v4*
