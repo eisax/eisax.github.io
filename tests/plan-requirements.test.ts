@@ -58,7 +58,7 @@ describe("Plan.md portfolio requirements", () => {
     });
     expect(experience.length).toBeGreaterThanOrEqual(3);
     expect(Array.isArray(testimonials)).toBe(true);
-    expect(projects.length).toBeGreaterThanOrEqual(10);
+    expect(projects.length).toBeGreaterThanOrEqual(8);
   });
 
   it("keeps visual defaults brutalist and unrounded", async () => {

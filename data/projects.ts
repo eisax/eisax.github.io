@@ -57,17 +57,5 @@ export const projects: ProjectItem[] = [
     desc: "Production mobile wallet reference architecture in Flutter. Features biometric authentication (Fingerprint & FaceID), encrypted secure storage, certificate pinning, JWT/OAuth 2.0 token management, and compliance with OWASP Mobile Top 10 standards.",
     tags: ["Flutter", "Biometrics", "Cert Pinning", "OWASP", "Wallets"],
     github: "https://github.com/eisax",
-  },
-  {
-    name: "Offline Transaction Queue & Sync Engine",
-    desc: "Resilient mobile data persistence architecture utilizing SQLite and Drift with bidirectional REST sync. Features offline transaction queueing, exponential backoff retries, and idempotent payment dispatch for low-connectivity environments.",
-    tags: ["Flutter", "SQLite", "Drift", "Offline-First", "Transactions"],
-    github: "https://github.com/eisax",
-  },
-  {
-    name: "Mobile POS Hardware & Peripheral Bridge",
-    desc: "Flutter and native Android (Kotlin) hardware integration bridge connecting mobile applications to Bluetooth ESC/POS thermal receipt printers, USB cash drawers, and barcode scanners for retail payment terminals.",
-    tags: ["Flutter", "Android", "Kotlin", "Hardware", "POS"],
-    github: "https://github.com/eisax",
-  },
+  }
 ];
