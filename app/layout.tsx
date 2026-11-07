@@ -31,6 +31,7 @@ const seoData = {
     "Flutter Developer",
     "Dart Developer",
     "Kotlin Developer",
+    "Jetpack Compose",
     "Android Developer",
     "Riverpod",
     "Laravel",
