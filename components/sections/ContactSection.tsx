@@ -26,7 +26,7 @@ export function ContactSection({ github }: ContactSectionProps) {
 						REACH OUT TO ME!
 					</h2>
 					<p className="mt-8 max-w-xl font-mono text-sm uppercase leading-relaxed tracking-widest text-terminal-soft">
-						Reach out to discuss your mobile application development, payment integrations, or fintech systems.
+						Reach out to discuss mobile applications, backend integrations, e-commerce, POS, or enterprise software development.
 					</p>
 					<div className="mt-8 flex flex-wrap items-center gap-4">
 						<a

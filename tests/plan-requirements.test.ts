@@ -27,11 +27,11 @@ describe("Plan.md portfolio requirements", () => {
     ]);
     expect(socialLinks.email).toBe("mailto:josphatkndhlovu@gmail.com");
     expect(skillGroups.map((group) => group.title)).toEqual([
-      "Mobile App Development",
-      "Fintech & Payment Systems",
-      "Integration & REST APIs",
-      "Data, Storage & Backend",
-      "Engineering & Infrastructure",
+      "Mobile Development",
+      "Backend & Enterprise Systems",
+      "Web & Frontend Development",
+      "Payments, POS & E-Commerce",
+      "Data, DevOps & Engineering",
     ]);
     expect(
       skillGroups.flatMap((group) =>
@@ -42,10 +42,11 @@ describe("Plan.md portfolio requirements", () => {
         "Flutter",
         "Dart",
         "Android",
-        "EcoCash",
+        "Laravel",
+        "Angular",
         "REST APIs",
         "SQLite",
-        "Git",
+        "PostgreSQL",
       ]),
     );
     expect(proficiency).toHaveLength(5);

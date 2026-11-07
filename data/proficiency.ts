@@ -1,7 +1,7 @@
 export const proficiency = [
-  { label: "Flutter & Dart Mobile Architecture", percentage: 98 },
-  { label: "Fintech, EcoCash & Payment Integrations", percentage: 95 },
-  { label: "Offline-First Sync & SQLite/Drift Storage", percentage: 94 },
-  { label: "REST APIs, OAuth & Enterprise Backend Sync", percentage: 92 },
-  { label: "Mobile POS & Transaction Processing", percentage: 90 },
+  { label: "Mobile Development (Flutter, Dart & Android)", percentage: 95 },
+  { label: "REST APIs & Enterprise System Integration", percentage: 92 },
+  { label: "Backend Engineering (Laravel, ASP.NET Core, Java/Spring)", percentage: 88 },
+  { label: "POS Systems, Payments & E-Commerce", percentage: 90 },
+  { label: "Databases & Offline Storage (SQLite, PostgreSQL, SQL Server)", percentage: 89 },
 ];
