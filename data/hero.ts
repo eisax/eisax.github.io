@@ -1,9 +1,9 @@
 export const hero = {
   greeting: "HI ALL,",
   name: "JOSPHAT K NDHLOVU",
-  title: "Mobile Developer (Flutter & Android)",
+  title: "Mobile Software Engineer",
   description:
-    "Mobile Software Engineer with 3+ years of experience specializing in Flutter, Dart, Kotlin, and Android. Proven track record building and shipping production apps on Google Play, integrating mobile wallets, payments, KYC onboarding, and offline-first architectures with a strong focus on mobile security, biometrics, and certificate pinning.",
+    "Mobile Software Engineer with 3+ years of production experience building high-performance mobile applications across Flutter, Dart, Kotlin, and Android. Creator of open-source payment SDKs with published apps on Google Play, specializing in resilient financial workflows, offline-first architectures, and enterprise security.",
   resumeLink: "https://www.linkedin.com/in/josphatndhlovu",
   stats: [
     { value: 4, suffix: "+", label: "Published Play Store Apps" },

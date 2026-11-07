@@ -27,11 +27,11 @@ describe("Plan.md portfolio requirements", () => {
     ]);
     expect(socialLinks.email).toBe("mailto:josphatkndhlovu@gmail.com");
     expect(skillGroups.map((group) => group.title)).toEqual([
-      "Mobile App Development",
-      "Fintech, Wallets & Payments",
-      "Mobile Security & Architecture",
-      "Data, Storage & Backend Systems",
-      "Testing, Release & Engineering",
+      "Mobile Engineering",
+      "Payments & Financial Systems",
+      "Application Security & Networking",
+      "Data Persistence & Backend Services",
+      "DevOps, Testing & Quality Assurance",
     ]);
     expect(
       skillGroups.flatMap((group) =>
@@ -46,7 +46,6 @@ describe("Plan.md portfolio requirements", () => {
         "Jetpack Compose",
         "Riverpod",
         "BLoC",
-        "EcoCash",
         "SQLite",
         "Firebase",
       ]),
