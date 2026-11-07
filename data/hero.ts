@@ -3,7 +3,7 @@ export const hero = {
   name: "JOSPHAT K NDHLOVU",
   title: "Mobile Software Engineer",
   description:
-    "Mobile Software Engineer with 3+ years of production experience building high-performance mobile applications across Flutter, Dart, Kotlin, and Android. Creator of open-source payment SDKs with published apps on Google Play, specializing in resilient financial workflows, offline-first architectures, and enterprise security.",
+    "Mobile Software Engineer with 3+ years of experience building production mobile applications in Flutter, Dart, Kotlin, and Android. Creator of open-source payment SDKs with published apps on Google Play, specializing in offline-first architectures, POS, and financial integrations.",
   resumeLink: "https://www.linkedin.com/in/josphatndhlovu",
   stats: [
     { value: 4, suffix: "+", label: "Published Play Store Apps" },

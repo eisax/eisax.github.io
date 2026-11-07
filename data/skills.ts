@@ -2,9 +2,9 @@ export const skillGroups = [
   {
     title: "Mobile Engineering",
     capabilities: [
-      "Architecting production mobile applications in Flutter and Dart with clean separation of concerns",
-      "Predictable reactive state management using Riverpod and BLoC with declarative UI patterns",
-      "Bridging native Android platform capabilities and SDKs using Kotlin and Jetpack Compose",
+      "Architecting production cross-platform applications in Flutter and Dart with clean separation of concerns",
+      "State management using Riverpod and BLoC with declarative, predictable UI architectures",
+      "Native Android platform integration and component development using Kotlin and Jetpack Compose",
     ],
     softwareSkills: [
       { skillName: "Flutter", iconifyTag: "logos:flutter" },
@@ -19,32 +19,32 @@ export const skillGroups = [
   {
     title: "Payments & Financial Systems",
     capabilities: [
-      "Authoring production payment SDKs, EcoCash Open API integrations, and webhook processing engines",
-      "Designing resilient transaction pipelines with idempotent dispatch, circuit breakers, and status polling",
+      "Authoring production payment SDKs, EcoCash Open API integrations, and webhook processing pipelines",
+      "Designing resilient transaction flows with idempotent dispatch, retry strategies, and status polling",
       "Integrating Point of Sale (POS) hardware peripherals, barcode scanners, and thermal receipt printers",
     ],
     softwareSkills: [
       { skillName: "Payment Gateways", iconifyTag: "mdi:credit-card-outline" },
       { skillName: "EcoCash API", iconifyTag: "mdi:cash-fast" },
-      { skillName: "POS Systems", iconifyTag: "mdi:point-of-sale" },
-      { skillName: "Transaction Processing", iconifyTag: "mdi:bank-transfer" },
-      { skillName: "Idempotency & Queues", iconifyTag: "mdi:tray-full" },
+      { skillName: "Paynow", iconifyTag: "mdi:bank-transfer" },
+      { skillName: "Mobile POS", iconifyTag: "mdi:point-of-sale" },
+      { skillName: "Transaction Flow", iconifyTag: "mdi:swap-horizontal-bold" },
       { skillName: "Webhooks", iconifyTag: "mdi:transit-connection-variant" },
     ],
   },
   {
     title: "Application Security & Networking",
     capabilities: [
-      "Hardening mobile applications with TLS certificate pinning, biometrics, and encrypted key storage",
-      "Implementing secure RESTful network layers, OAuth 2.0 / JWT token lifecycles, and payload validation",
-      "Mitigating client-side security risks aligned with industry defense-in-depth security best practices",
+      "Designing resilient RESTful API client layers, token-based authentication (OAuth 2.0, JWT), and secure session lifecycles",
+      "Securing mobile data and sensitive credentials using platform keychains and encrypted storage engines",
+      "Client-side payload validation, data sanitization, and secure communication over HTTPS/TLS",
     ],
     softwareSkills: [
       { skillName: "REST APIs", iconifyTag: "mdi:api" },
       { skillName: "OAuth 2.0 & JWT", iconifyTag: "logos:oauth" },
-      { skillName: "Biometric Auth", iconifyTag: "mdi:fingerprint" },
-      { skillName: "Cryptography", iconifyTag: "mdi:shield-key-outline" },
-      { skillName: "Network Security", iconifyTag: "mdi:lock-check-outline" },
+      { skillName: "Secure Storage", iconifyTag: "mdi:shield-key-outline" },
+      { skillName: "Data Encryption", iconifyTag: "mdi:lock-check-outline" },
+      { skillName: "Network Security", iconifyTag: "mdi:shield-outline" },
       { skillName: "JSON", iconifyTag: "mdi:code-json" },
     ],
   },

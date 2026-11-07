@@ -8,6 +8,12 @@ export interface ProjectItem {
 
 export const projects: ProjectItem[] = [
   {
+    name: "Kayibay Wallet",
+    desc: "Production mobile business wallet and POS application built for African SMEs. Enables merchants to accept instant mobile money and card payments, share secure payment links, manage store inventory in real time, and disburse bill and supplier payments from a unified wallet.",
+    tags: ["Flutter", "Dart", "Mobile Wallet", "Payments", "POS"],
+    link: "https://play.google.com/store/apps/details?id=com.kayibay.kayibaybusiness",
+  },
+  {
     name: "Havano POS",
     desc: "Production mobile Point of Sale and payments application live on Google Play, integrated with enterprise ERP services. Features real-time sales processing, offline transaction queueing, inventory reconciliation, barcode scanning, and hardware receipt printing.",
     tags: ["Flutter", "Dart", "Google Play", "POS", "Payments"],
@@ -32,30 +38,38 @@ export const projects: ProjectItem[] = [
     link: "https://play.google.com/store/apps/details?id=zw.co.showlineintelect&hl=en",
   },
   {
+    name: "Furrow.Payments",
+    desc: "Standalone, production-ready C# / .NET library for integrating Paynow Zimbabwe payment workflows. Features standard Paynow Web Checkout (Visa, MasterCard, ZimSwitch, EcoCash Web), transaction status polling, and automated reconciliations.",
+    tags: [".NET", "C#", "Paynow", "Payments", "Open Source"],
+    github: "https://github.com/eisax/Furrow.Payments",
+    link: "https://github.com/eisax/Furrow.Payments",
+  },
+  {
     name: "ecocash_dart_sdk",
     desc: "Comprehensive, production-ready Dart SDK for integrating with the EcoCash Open API. Provides enterprise-grade features for processing mobile payments, customer refunds, transaction status polling, circuit breakers, and secure financial logging.",
-    tags: ["Dart", "Flutter", "EcoCash", "Wallets", "Fintech"],
+    tags: ["Dart", "Flutter", "EcoCash", "Payments", "SDK"],
     github: "https://github.com/eisax/ecocash_dart_sdk",
-    link: "https://github.com/eisax/ecocash_dart_sdk",
+    link: "https://pub.dev/packages/ecocash_dart_sdk",
   },
   {
     name: "pixo_flutter",
-    desc: "High-performance Flutter plugin wrapping the Rust pixo image compression engine via Dart FFI. Delivers fast client-side image compression optimized for mobile KYC identity verification, document uploads, and camera capture.",
-    tags: ["Flutter", "Rust", "Dart FFI", "KYC Verification", "Mobile"],
+    desc: "High-performance Flutter plugin package that wraps the Rust pixo image compression engine via Dart FFI. Delivers fast client-side image compression directly on device to optimize network bandwidth and camera upload performance.",
+    tags: ["Flutter", "Rust", "Dart FFI", "Image Processing", "Mobile"],
     github: "https://github.com/eisax/pixo_flutter",
     link: "https://github.com/eisax/pixo_flutter",
   },
   {
     name: "zim_phone_utils_dart",
-    desc: "Open-source Dart package for validating, formatting, and detecting network carriers (Econet, NetOne, Telecel) for Zimbabwean phone numbers across mobile networks. Widely adopted across 250+ integrations for user onboarding and remittance routing.",
-    tags: ["Dart", "Flutter", "Onboarding", "Validation", "Remittance"],
+    desc: "Comprehensive Dart utility library for validating, formatting, and detecting network carriers (Econet, NetOne, Telecel) for Zimbabwean phone numbers across mobile networks. Widely adopted across 250+ integrations for mobile form validation.",
+    tags: ["Dart", "Flutter", "Validation", "Mobile", "Open Source"],
     github: "https://github.com/eisax/zim_phone_utils_dart",
     link: "https://github.com/eisax/zim_phone_utils_dart",
   },
   {
-    name: "Mobile Wallet & Remittance Architecture",
-    desc: "Production mobile wallet reference architecture in Flutter. Features biometric authentication (Fingerprint & FaceID), encrypted secure storage, certificate pinning, JWT/OAuth 2.0 token management, and compliance with OWASP Mobile Top 10 standards.",
-    tags: ["Flutter", "Biometrics", "Cert Pinning", "OWASP", "Wallets"],
-    github: "https://github.com/eisax",
-  }
+    name: "kg6-codex",
+    desc: "Modular, open-source AI Developer Assistant designed to automate, accelerate, and improve the software development lifecycle. Command-line tool helping developers review, understand, document, and refactor codebases.",
+    tags: ["TypeScript", "AI CLI", "Developer Tools", "Open Source"],
+    github: "https://github.com/kg6-oss/kg6-codex",
+    link: "https://github.com/kg6-oss/kg6-codex",
+  },
 ];

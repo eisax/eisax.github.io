@@ -18,8 +18,8 @@ export function SkillsSection() {
       <SectionLabel num="02" />
       <SectionTitle>WHAT I DO.</SectionTitle>
       <p className="max-w-2xl font-mono text-sm uppercase leading-relaxed tracking-widest text-terminal-soft">
-        Mobile software engineer building production cross-platform applications,
-        resilient financial workflows, and secure, high-performance client architectures
+        Mobile software engineer building production mobile applications,
+        payment integrations, and high-performance client architectures
       </p>
       <div className="my-12 border-t border-terminal-border" />
       <TooltipProvider>

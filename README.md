@@ -2,7 +2,7 @@
 
 ## Mobile Developer (Flutter & Android) Portfolio built with Next.js, TypeScript, Tailwind CSS, and a brutalist dark design system.
 
-This project is a single-page portfolio for **Josphat K Ndhlovu**. It showcases published mobile apps on Google Play, mobile wallets and fintech payment architectures, EcoCash SDKs, mobile security practices, and open-source contributions through a terminal-inspired interface.
+This project is a single-page portfolio for **Josphat K Ndhlovu**. It showcases published mobile apps on Google Play, open-source payment SDKs, mobile architecture, and production engineering experience through a terminal-inspired interface.
 
 ## Sections
 
